@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author"   content="Fernando Cabanillas">
+  <meta name="description" content="Refugio de perros en Málaga con mas de 15 de experiencia en rescate, cuidado y adopción de perros">
+  <meta name="keywords" content="refugio de perros, adopción, perros en adopción, protectora, Patitas, animales, quiénes somos">
+  <title>Nuestras Patitas</title>
+  <link rel="icon" href="../favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+
+ <header>
+    <div class="branding">
+      <a href="../index.html"><img src="../images/patitas.jpg" alt="logo de empresa" class="logo"></a> 
+      <a href="../index.html"><h1>Patitas</h1></a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="../index.html" class="enlace">¿Quiénes somos?</a></li>
+        <li><a href="#" class="enlace active">Nuestras Patitas</a></li>
+        <li><a href="./contacto.html" class="enlace">Contacta con Nosotros</a></li>
+        <li><a href="./presupuesto.html" class="enlace">Adopta</a></li>
+      </ul>
+    </nav>
+ </header>
+<main>
+  <!-- Galería de perros disponibles para adopción -->
+  <div class="galeria">
+
+    <!-- Cada imagen-container representa un perro -->
+    <div class="imagen-container">
+      <!-- Input tipo radio oculto: permite seleccionar un perro -->
+      <input type="radio" name="perro" id="perro1" hidden>
+      
+      <!-- Al hacer clic en la imagen (etiqueta label), se activa el input -->
+      <label for="perro1">
+        <img src="../images/perro1.jpg" alt="Foto de Max">
+      </label>
+
+      <!-- Información que se puede mostrar al seleccionar el perro -->
+      <div class="info" id="info1">
+        <p><strong>Nombre:</strong> Coco</p>
+        <p><strong>Raza:</strong> Chihuahua, mestizo</p>
+        <p><strong>Edad:</strong> 8 años</p>
+      </div>
+    </div>
+
+    <!-- Repetición -->
+    <div class="imagen-container">
+      <input type="radio" name="perro" id="perro2" hidden>
+      <label for="perro2">
+        <img src="../images/perro2.jpg" alt="Foto de Luna">
+      </label>
+      <div class="info" id="info2">
+        <p><strong>Nombre:</strong> Rocky</p>
+        <p><strong>Raza:</strong> Mestizo</p>
+        <p><strong>Edad:</strong> 2 años</p>
+      </div>
+    </div>
+
+    <div class="imagen-container">
+      <input type="radio" name="perro" id="perro3" hidden>
+      <label for="perro3">
+        <img src="../images/perro3.jpg" alt="Foto de Rocky">
+      </label>
+      <div class="info" id="info3">
+        <p><strong>Nombre:</strong> Toby</p>
+        <p><strong>Raza:</strong> Boxer, mestizo</p>
+        <p><strong>Edad:</strong> 3 años</p>
+      </div>
+    </div>
+
+    <div class="imagen-container">
+      <input type="radio" name="perro" id="perro4" hidden>
+      <label for="perro4">
+        <img src="../images/perro4.jpg" alt="Foto de Bella">
+      </label>
+      <div class="info" id="info4">
+        <p><strong>Nombre:</strong> Nala</p>
+        <p><strong>Raza:</strong> American standford, mestizo</p>
+        <p><strong>Edad:</strong> 3 años</p>
+      </div>
+    </div>
+
+    <div class="imagen-container">
+      <input type="radio" name="perro" id="perro5" hidden>
+      <label for="perro5">
+        <img src="../images/perro5.jpg" alt="Foto de Toby">
+      </label>
+      <div class="info" id="info5">
+        <p><strong>Nombre:</strong> Simba</p>
+        <p><strong>Raza:</strong> Perro de agua</p>
+        <p><strong>Edad:</strong> 7 años</p>
+      </div>
+    </div>
+
+    <div class="imagen-container">
+      <input type="radio" name="perro" id="perro6" hidden>
+      <label for="perro6">
+        <img src="../images/perro6.jpg" alt="Foto de Kira">
+      </label>
+      <div class="info" id="info6">
+        <p><strong>Nombre:</strong> Roco</p>
+        <p><strong>Raza:</strong> Bull terrier</p>
+        <p><strong>Edad:</strong> 5 años</p>
+      </div>
+    </div>
+
+  </div>
+</main>
+ 
+<footer>
+    <div class="social-icons">
+      <a href="https://mail.google.com/" target="_blank"><img src="../images/iconmonstr-gmail-5.svg" alt="Gmail"></a>
+      <a href="https://instagram.com" target="_blank"><img src="../images/iconmonstr-instagram-11.svg" alt="Instagram"></a>
+      <a href="https://facebook.com" target="_blank"><img src="../images/iconmonstr-facebook-5.svg" alt="Facebook"></a>
+      <a href="https://wa.me/" target="_blank"><img src="../images/iconmonstr-whatsapp-5.svg" alt="WhatsApp"></a>
+    </div>
+
+    <div class="company-info">
+      <p>Refugio Patitas, Calle Esperanza 123, Málaga</p>
+      <a class="avisolegal" href="./aviso-legal.html">Aviso legal</a>
+    </div>
+</footer>
+
+</body>
+</html>
